@@ -3,6 +3,7 @@ body {
     text-align: center;
     font-family: 'Secular One', sans-serif;
     font-size: 100%;
+    color: #40514E;
 
 }
 
@@ -21,6 +22,10 @@ h1 {
     font-family: 'Chakra Petch', sans-serif;
 }
 
+p{
+    line-height: 2;
+}
+
 h2 {color: #66BFBF;}
 
 h3 {color: #11999E;}
@@ -29,19 +34,15 @@ span {
     text-decoration: underline;
 }
 
-div {
-    background-color: aliceblue;
-}
-
 .top-cloud {
     position: absolute;
     right: 300px;
-    top: 50px;
+    top: 40px;
 }
 
 .bottom-cloud {
     position: absolute;
-    left: 300px;
+    left: 250px;
     bottom: 300px;
 }
 
@@ -52,14 +53,14 @@ div {
 }
 
 .profile {
-    padding-top: 40px;
+    padding-top: 100px 0;
 }
 
 .skill-row {
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
-    line-height: 2;
+    
     
 }
 
@@ -76,37 +77,76 @@ div {
 }
 
 .middle-container {
-
+ margin: 100px 0;
 }
 
 .bottom-container {
-color: #11999E;
-padding-top: 30px;
+background-color: #66BFBF;
+padding: 50px 0 20px;
+margin-top: 5%;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Secular One', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+    width: 10px;
+}
+
+a:hover {
+    color: #EAF6F6;
 }
 
 .btn {
-    background: #3498db;
-    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-    background-image: -o-linear-gradient(top, #3498db, #2980b9);
-    background-image: linear-gradient(to bottom, #3498db, #2980b9);
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 28px;
-    font-family: Georgia;
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    text-shadow: 1px 1px 3px #666666;
+    font-family: 'Secular One', sans-serif;
     color: #ffffff;
-    font-size: 22px;
+    font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
   }
   
   .btn:hover {
-    background: #3cb0fd;
-    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
   }
+
+
+  hr {
+    border: dotted 6px; 
+    width: 4%;
+    color: #EAF6F6;
+    border-bottom: none;
+    margin: 100px auto;
+  }    
+
+  .contact-message {
+    width: 40%;
+    margin: 40px auto 60px auto;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.intro {
+width: 30%;
+margin: auto;
+}
